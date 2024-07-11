@@ -50,8 +50,9 @@ layout: page
         <span>By <strong>{{ post.author | strip_html }}</strong></span>
       {% endif %}
       <p class="post-meta">
-        {% assign date_format = "11.07.2024" %}
-        Posted on {{ date: date_format }}
+        {% assign static_date = "2024-07-11" %}
+        {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+        Posted on {{ static_date | date: date_format }}
       </p>
 
       {% if thumbnail != "" %}
