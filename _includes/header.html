@@ -37,12 +37,14 @@
             {% if page.author %}
               By <strong>{{ page.author | strip_html }}</strong><br>
             {% endif%}
-            <span class="post-meta">Posted on {{ 11.07.2024 }}</span> 
+            <!-- <span class="post-meta">Posted on {{ 11.07.2024 }}</span> 
             {% if page.last-updated %}
               <span class="post-meta">
                 <span class="d-none d-md-inline middot">&middot;</span>
                 Last updated {{ page.last-updated | date: date_format }}
-              </span>
+              </span> -->
+              
+            {% endif%}
             {% endif %}
             {% if page.readtime %}
               {% include readtime.html %}
