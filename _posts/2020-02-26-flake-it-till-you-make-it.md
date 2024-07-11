@@ -5,12 +5,12 @@ subtitle: Git nedir? Git kullanımı ve komutları
 # cover-img: /assets/img/path.jpg
 # thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
-tags: [books, test]
+tags: [git]
 author: Günay TAŞ
 ---
 
-'''shell
+```shell
 git config —list
-'''
+```
 
 Tutulan konfigürasyon bilgilerini listeler.
