@@ -13,17 +13,17 @@
 title: My Blog
 
 # Your name to show in the footer
-author: Günay
+author: Günay TAŞ
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  # Resources:
+  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #   - Learn markdown: "https://www.markdowntutorial.com/"
+  # Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -49,9 +49,8 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  github: daattali
+  email: "gunaytas611@gmail.com"
+  github: gunaytas
 
 #  medium: yourname
 #  reddit: yourname
