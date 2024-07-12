@@ -77,50 +77,64 @@ git checkout main
 ```
 main isimli branch’e geçer.
 
-
 ```shell
 git pull origin feature
 ```
-Remote repoda bulunan değişiklikleri yerel dizine çeker.
+Remote repoda bulunan kullanıcılar tarafından yapılan son değişiklikleri yerel dizine çeker. Git fetch ve Git merge işlemlerinin arka arkaya yapılmasına denktir.
 
+```shell
+git fetch origin main
+```
+Remote repoda bulunan bir branch'i yerel repoya indirir. Mevcut branch ile birleştirmez.
 
 ```shell
 git merge
 ```
 Farklı branchlerdeki değişiklikleri birbirine entegre etmek için kullanılır.
+Öncelikle branchi dahil etmek istediğimiz yere git checkout ile geçmemiz gerek. Sonrasında git merge kullanarak birleştirme yapabiliriz. Aşağıdaki örnek feature branch'indeki commitleri main branch'ine ekleyecektir.
 
+```shell
+git checkout main
+git merge feature
+```
 
 ```shell
 git log
 ```
-Yapılan commitlerin bilgilerini listeler.
-
+Yapılan commitlerin mesajı, tarihi ve kim tarafından yapıldığı bilgilerini listeler.
 
 ```shell
 git branch -d <branch>
 ```
 Belirtilen branch’i yerel dizinden silmek için kullanılır.
 
-
 ```shell
-git push origin --delete crazy-experiment
+git push origin --delete feature
 ```
 Belirtilen branch’i remote repodan silmek için kullanılır.
-
 
 ```shell
 git revert 14a649d25367e2c10f7e30ec6617c98fb3237ece
 ```
-Yapılan değişikliği geri almak için kullanılır. Commit ID yazılır.
-
+Yapılan değişikliği geri almak için kullanılır. Commit işlemleri korunur. Geri alınmak istenen commit işlemindeki değişiklik geri alınır ve yeni bir commit oluşturulur.
 
 ```shell
 git reset --hard fb47626f2c562e12a49a8d86f421406765b04afa
 ```
-commiti geri alma
-
+Bu komut, çalışma dizini ve staging alanını belirtilen commit'in durumuna getirir. Yani, commit'ten sonra yapılan tüm değişiklikler kaybolur.
 
 ```shell
-git rebase
+git reset --hard HEAD
 ```
+Tüm dosyalardaki değişiklikleri son commit edilen haline getirir.
+
+```shell
+git checkout -- dosya1.md
+```
+Dosyanın son commit edilmiş haline geri dönmek için kullanılır.
+
+```shell
+git reset HEAD dosya1.md
+```
+Dosyayı staging alanından çıkarmak için kullanılır.
 
