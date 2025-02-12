@@ -36,6 +36,8 @@ Projenin ilk aşamasında, kullanıcıların ihtiyaçlarını ve hedeflerini anl
 #### **2. Algoritma ve Sayfa Tasarımlarının Oluşturulması**
 Sayfaların işlevselliklerini belirlemek için uygun algoritmaları ve akış diyagramlarını oluşturdum ve kullanıcı deneyimini optimize etmek adına her sayfa için mockup oluşturdum. Bu adım ilerlememi büyük bir ölçüde hızlandırdı. 
 
+<img src="/images/wireframe1.png" alt="mockup" width="300">
+
 ![mockup](/images/wireframe1.png?width=300) 
 ![mockup](/images/liste.png?width=300) 
 
