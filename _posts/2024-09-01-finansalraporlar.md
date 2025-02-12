@@ -37,10 +37,13 @@ Projenin ilk aşamasında, kullanıcıların ihtiyaçlarını ve hedeflerini anl
 Sayfaların işlevselliklerini belirlemek için uygun algoritmaları ve akış diyagramlarını oluşturdum ve kullanıcı deneyimini optimize etmek adına her sayfa için mockup oluşturdum. Bu adım ilerlememi büyük bir ölçüde hızlandırdı. 
 
 ![mockup](/images/wireframe1.png?width=300) 
+![mockup](/images/liste.png?width=300) 
+
 <!-- Model, controller ve view yapıları arasındaki ilişkiyi kullanarak CRUD (Create, Read, Update, Delete) işlemlerini uyguladım. -->
 
 #### **3. Backend Geliştirme: Devise ile Kimlik Doğrulama**
-Projenin backend kısmında ilk adım olarak, kullanıcı kimlik doğrulama işlemleri için Devise gem'ini entegre ettim. Bu sayede kullanıcıların güvenli bir şekilde giriş yapabilmelerini ve hesap oluşturabilmelerini sağladım. Kurulum oldukça kolaydı:
+Projenin backend kısmında ilk adım olarak, kullanıcı kimlik doğrulama işlemleri için Devise gem'ini entegre ettim. Bu sayede kullanıcıların güvenli bir şekilde giriş yapabilmelerini ve hesap oluşturabilmelerini sağladım. 
+
 ```bash
 rails generate devise:install
 rails generate devise User
@@ -49,6 +52,9 @@ rake db:migrate
 
 #### **4. Tailwind CSS ile Sayfa Tasarımlarının Uygulanması**
 Tasarımları hayata geçirmek için Tailwind CSS kullandım. Bu araç, utility-first yaklaşımıyla karmaşık CSS dosyaları yazmayı gereksiz kıldı ve doğrudan HTML üzerinde stil vermemi sağladı. 
+
+![tasarım](/images/anasayfa.png?width=200) 
+![tasarım](/images/image.png?width=300) 
 
 #### **5. Veritabanı Bağlantısı**
 Veritabanı bağlantısını Rails’in Active Record özelliğiyle kolayca yaptım. Bir örnek migration dosyası:
