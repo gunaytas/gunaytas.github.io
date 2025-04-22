@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Veritabanı Yolculuğum: 
+title: Veritabanı 
 categories: [ruby,rails] 
 ---     
 
 Son günlerde veritabanı dünyasında epeyce vakit geçirdim. Başta sadece bir ders içeriği gibi gelse de işin içine girdikçe ne kadar geniş ve güçlü bir alan olduğunu fark ettim. Veritabanı ile ilgili bilgim olsa da eksiğim çoktu. Bu yüzden en baştan tekrar başlamak istedim. 
 
+---
 Temel kavramlardan başlayarak ilişkilendirme, sorgulama ve modelleme konularına kadar birçok şey öğrendim ve uyguladım. ER diyagramlarından ilişkisel cebire, oradan da SQL sorgularına uzanan bol denemeli, bol yanlışlı ama bir o kadar da öğretici bu süreci hem kendim için özetlemek hem de kayıt altında tutmak adına bu yazıyı yazmak istedim. 
 
----
 ## Veritabanına Giriş: Temel Kavramlar
 Verilerin organize ve anlamlı bir şekilde saklanması, erişilmesi ve işlenmesi için veritabanları vazgeçilmez bir rol oynuyor. Bu aşamada kavramsal, mantıksal ve fiziksel veri modelleri hakkında temel bilgiler edindim.
 
