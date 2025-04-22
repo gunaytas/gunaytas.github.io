@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Veritabanı 
-categories: [ruby,rails] 
+title: Veritabanı Yolculuk
+categories: [sql,veritabanı] 
 ---     
 
 Son günlerde veritabanı dünyasında epeyce vakit geçirdim. Başta sadece bir ders içeriği gibi gelse de işin içine girdikçe ne kadar geniş ve güçlü bir alan olduğunu fark ettim. Veritabanı ile ilgili bilgim olsa da eksiğim çoktu. Bu yüzden en baştan tekrar başlamak istedim. 
