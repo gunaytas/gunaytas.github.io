@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Veritabanı Yolculuk
+title: Veritabanı Yolculuğu
 categories: [sql,veritabanı] 
 ---     
 
