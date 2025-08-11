@@ -122,10 +122,10 @@ void main() {
 }
 ```
 
-<img src="/images/kesme2.png" alt="interrupt" width="400">
+<img src="/images/kesme2.png" alt="interrupt" width="full">
 
 
-<img src="/images/lcdtus.png" alt="lcd" width="400">
+<img src="/images/lcdtus.png" alt="lcd" width="full">
 
 
 
